@@ -21,10 +21,10 @@ function pipeFix(numbers){
   
     let newArray = (Array.from(numbers));
     const firstNum = newArray[0]
-    const secondNum = newArray[newArray.length - 1]
+    const lastNum = newArray[newArray.length - 1]
     
     let ans = []
-    for(let i = firstNum ; i <= secondNum; i++) {
+    for(let i = firstNum ; i <= lastNum; i++) {
        ans.push(i )
     }
       return ans;
